@@ -14,10 +14,8 @@ Example:
       --net=host \
       -p 8200:8200 \
       -p 1900:1900/udp \
-      -v <PATH_TO_MUSIC_DIR>:/opt/Music \
-      -v <PATH_TO_VIDEOS_DIR>:/opt/Videos \
-      -v <PATH_TO_PICUTRES_DIR>:/opt/Pictures \
-      geekduck/minidlna
+      -v <PATH_TO_MEDIA_DIR>:/media \
+      martmaiste/minidlna
 
 
 If you want to overwrite a config file:
@@ -26,8 +24,6 @@ If you want to overwrite a config file:
       --net=host \
       -p 8200:8200 \
       -p 1900:1900/udp \
-      -v <PATH_TO_MUSIC_DIR>:/opt/Music \
-      -v <PATH_TO_VIDEOS_DIR>:/opt/Videos \
-      -v <PATH_TO_PICUTRES_DIR>:/opt/Pictures \
+      -v <PATH_TO_MEDIA_DIR>:/media \
       -v <PATH_TO_CONFIG_DIR>/minidlna.conf:/etc/minidlna.conf \
-      geekduck/minidlna
+      martmaiste/minidlna
