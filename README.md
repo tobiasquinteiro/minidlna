@@ -27,3 +27,6 @@ If you want to overwrite a config file:
       -v <PATH_TO_MEDIA_DIR>:/media \
       -v <PATH_TO_CONFIG_DIR>/minidlna.conf:/etc/minidlna.conf \
       martmaiste/minidlna
+
+### Credits
+This project is fork of [geekduck/docker-minidlna](https://github.com/geekduck/docker-minidlna) with few minor changes to suite my personal preferences.
