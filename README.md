@@ -29,4 +29,6 @@ If you want to overwrite a config file:
       martmaiste/minidlna
 
 ### Credits
-This project is fork of [geekduck/docker-minidlna](https://github.com/geekduck/docker-minidlna) with few minor changes to suite my personal preferences.
+Project [martmaiste/minidlna](https://github.com/martmaiste/minidlna) is fork of [geekduck/docker-minidlna](https://github.com/geekduck/docker-minidlna) with few minor changes to suite my personal preferences.
+
+This project is fork of [martmaiste/minidlna](https://github.com/martmaiste/minidlna) with few minor changes to suite my personal preferences.
